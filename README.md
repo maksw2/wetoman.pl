@@ -1,0 +1,1 @@
+parodia wetomat.pl przedstawiająca obiektywne fakty a nie propagandę
