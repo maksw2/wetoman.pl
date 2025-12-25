@@ -1,10 +1,4 @@
 <!DOCTYPE html>
-<!--
-This HTML is free to copy, modify, and distribute.
-It comes without any warranty, to the extent permitted by applicable law.
-You can redistribute it and/or modify it under the terms of the Do What The Fuck You Want To Public License, Version 2.
-See http://www.wtfpl.net/ for more details.
--->
 <html lang="pl">
 <head>
     <meta charset="UTF-8">
@@ -15,64 +9,59 @@ See http://www.wtfpl.net/ for more details.
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
             padding: 0;
-			max-width: 100%;
-			overflow-x: hidden;
-            background-color: #f5f8fa; /* Bardziej subtelny, korporacyjny odcień */
-            color: #2c3e50; /* Głęboki, profesjonalny kolor tekstu */
+            max-width: 100%;
+            overflow-x: hidden;
+            background-color: #f5f8fa;
+            color: #2c3e50;
         }
         header {
-            background-color: #003366; /* Elegancki granat */
+            background-color: #003366;
             color: white;
             padding: 30px 0;
             text-align: center;
-            border-bottom: 5px solid #ffc300; /* Złoty akcent */
+            border-bottom: 5px solid #ffc300;
         }
         header h1 {
             margin: 0;
-            font-size: 2.8em;
+            font-size: 2em;
             letter-spacing: 3px;
             text-transform: uppercase;
         }
-        header p, footer p {
-            font-size: 1.1em;
+        header p {
+            font-size: 1em;
             margin-top: 5px;
             opacity: 0.8;
-			padding-left: 15px;
-			padding-right: 15px;
-			box-sizing: border-box;
+            padding: 0 15px;
         }
         .hero {
-            padding: 60px 20px;
+            padding: 0;
             text-align: center;
         }
         .licznik-container {
             display: flex;
             justify-content: center;
             gap: 50px;
-			flex-wrap: wrap;
+            flex-wrap: wrap;
             margin: 40px 0;
         }
         .licznik {
             padding: 30px;
             border-radius: 12px;
             width: 280px;
-			max-width: 90%;
+            max-width: 90%;
             box-shadow: 0 8px 16px rgba(0,0,0,0.1);
             transition: transform 0.3s ease;
         }
         .licznik:hover {
             transform: translateY(-5px);
         }
-		.hero {
-			padding: 0; /* zamiast 60px górnego i dolnego */
-		}
         .podpisane {
-            background-color: #e8f5e9; /* Blada zieleń */
-            border-bottom: 6px solid #4caf50; /* Mocny zielony */
+            background-color: #e8f5e9;
+            border-bottom: 6px solid #4caf50;
         }
         .zawetowane {
-            background-color: #ffebee; /* Blada czerwień/pomarańcz */
-            border-bottom: 6px solid #f44336; /* Mocny czerwony akcent */
+            background-color: #ffebee;
+            border-bottom: 6px solid #f44336;
         }
         .cyfra {
             font-size: 7em;
@@ -89,7 +78,6 @@ See http://www.wtfpl.net/ for more details.
             text-transform: uppercase;
             color: #555;
         }
-        
         .summary {
             font-size: 1.4em;
             max-width: 900px;
@@ -116,6 +104,8 @@ See http://www.wtfpl.net/ for more details.
             margin-bottom: 40px;
             text-transform: uppercase;
         }
+        
+        /* Style list - UJEDNOLICONE */
         .lista-ustaw {
             padding: 15px 10px;
             list-style: none;
@@ -124,10 +114,24 @@ See http://www.wtfpl.net/ for more details.
             background-color: white;
             padding: 20px;
             margin-bottom: 15px;
-            border-left: 6px solid #4caf50;
             box-shadow: 0 3px 10px rgba(0,0,0,0.08);
             border-radius: 6px;
+            transition: box-shadow 0.3s ease;
         }
+        .lista-ustaw li:hover {
+            box-shadow: 0 5px 15px rgba(0,0,0,0.12);
+        }
+
+        /* Wariant zielony (podpisane) */
+        .lista-podpisane li {
+            border-left: 6px solid #4caf50;
+        }
+
+        /* Wariant czerwony (weta) */
+        .lista-zawetowane li {
+            border-left: 6px solid #f44336;
+        }
+
         .lista-ustaw strong {
             color: #003366;
             font-size: 1.2em;
@@ -137,554 +141,150 @@ See http://www.wtfpl.net/ for more details.
         .lista-ustaw em {
             color: #777;
             font-style: normal;
+            font-size: 0.9em;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
         }
-
-        .weto-analiza {
-            background-color: #fff;
-            padding: 30px;
-            border-radius: 8px;
-            box-shadow: 0 0 15px rgba(0,0,0,0.1);
-            border-top: 4px solid #f44336;
-        }
-        .weto-analiza p {
-            font-size: 1.1em;
-            line-height: 1.6;
-        }
-        .weto-analiza b {
-            color: #f44336;
-            font-weight: 700;
-        }
-        .weto-analiza ul {
-            list-style-type: '➡ ';
-            padding-left: 30px;
-            margin-top: 20px;
-        }
-        .weto-analiza li {
-            margin-bottom: 10px;
-        }
+        
+        /* Usunięte stare style .weto-analiza na rzecz ujednolicenia */
+        
         footer {
-            background-color: #34495e; /* Ciemny, stonowany kolor */
+            background-color: #34495e;
             color: white;
             text-align: center;
             padding: 20px 0;
             margin-top: 50px;
             font-size: 0.9em;
         }
-		header h1 {
-			font-size: 2em;
-		}
-
-		header p {
-			font-size: 1em;
-		}
+        footer a {
+            color: #ffc300;
+            text-decoration: none;
+        }
+        .loading {
+            text-align: center;
+            padding: 20px;
+            font-style: italic;
+            color: #666;
+            box-shadow: none !important; /* Reset cienia dla loadera */
+            background: transparent !important; /* Reset tła dla loadera */
+        }
     </style>
 </head>
 <body>
 
     <header>
         <h1>RAPORT DZIAŁAŃ KANCELARII PREZYDENTA RP</h1>
-        <p>Analiza Bilansu Legislacyjnego. Strażnik Konstytucji, a nie podmiot obstrukcyjny. Stan na dzień 14 listopada 2025 r.</p>
+        <p>Analiza Bilansu Legislacyjnego. Strażnik Konstytucji, a nie podmiot obstrukcyjny. Stan na dzień <span id="data-aktualizacji">...</span></p>
     </header>
 
     <main class="hero">
         <div class="licznik-container">
             <div class="licznik podpisane">
-                <span class="cyfra">70</span>
+                <span class="cyfra" id="liczba-podpisanych">0</span>
                 <p>USTAW PRZYJĘTYCH I WPROWADZONYCH</p>
             </div>
             <div class="licznik zawetowane">
-                <span class="cyfra">13</span>
+                <span class="cyfra" id="liczba-wet">0</span>
                 <p>WET PRAWOTWÓRCZYCH / SKIEROWANIA DO TK</p>
             </div>
         </div>
         <p class="summary">
-            Wynik ten stanowi o <b>84% efektywności kooperacji</b> w procesie legislacyjnym z obiema izbami Parlamentu. Prezydent Rzeczypospolitej Polskiej pełni rolę <b>Konstytucyjnego Gwaranta Prawa</b>, a nie podmiotu generującego systemową obstrukcję.
+            Wynik ten stanowi o <b id="procent-efektywnosci">...</b> <b>efektywności kooperacji</b> w procesie legislacyjnym z obiema izbami Parlamentu. Prezydent Rzeczypospolitej Polskiej pełni rolę <b>Konstytucyjnego Gwaranta Prawa</b>, a nie podmiotu generującego systemową obstrukcję.
         </p>
     </main>
 
-	<section id="podpisane" class="sekcja">
-	  <h2>PORTFOLIO LEGISLACYJNE – 70 USTAW PODPISANYCH (stan na publikacje KPRP)</h2>
-	  <p style="max-width:900px;margin:0 auto 20px auto;">
-		Lista została przygotowana według oficjalnych komunikatów Kancelarii Prezydenta (zgrupowana chronologicznie w ramach miesięcy). Każdy wpis: <em>Tytuł ustawy — data podpisu — cel / stanowisko Prezydenta</em>.
-	  </p>
-
-	  <ol class="lista-ustaw">
-		<li>
-		  <strong>Nowelizacja Prawa lotniczego</strong>
-		  <em>podpisana 8 stycznia 2025 r.</em>
-		  <br>Cel: Udoskonalenie ram prawnych dla bezpieczeństwa lotnictwa i modernizacji przepisów technicznych.
-		</li>
-
-		<li>
-		  <strong>Ustawa o Radzie Fiskalnej</strong>
-		  <em>podpisana 10 stycznia 2025 r.</em>
-		  <br>Cel: Wzmocnienie niezależnych mechanizmów oceny fiskalnej i przejrzystości finansów publicznych.
-		</li>
-
-		<li>
-		  <strong>Budżet państwa na 2025 rok</strong>
-		  <em>podpisana 17 stycznia 2025 r.</em>
-		  <br>Cel: Zapewnienie finansowania kluczowych zadań państwa z wyróżnieniem bezpieczeństwa i polityki socjalnej.
-		</li>
-
-		<li>
-		  <strong>Podmioty obsługujące kredyty i nabywcy kredytów</strong>
-		  <em>podpisana 30 stycznia 2025 r.</em>
-		  <br>Cel: Ochrona konsumenta na rynku obsługi zadłużenia poprzez regulacje przejrzystości i odpowiedzialności.
-		</li>
-
-		<li>
-		  <strong>Ustawa o rynku mocy (nowelizacja)</strong>
-		  <em>podpisana 31 stycznia 2025 r.</em>
-		  <br>Cel: Zapewnienie mechanizmów stabilizujących system elektroenergetyczny oraz bezpieczeństwo dostaw.
-		</li>
-
-		<li>
-		  <strong>Ustanowienie Narodowego Dnia Pamięci Żołnierzy AK</strong>
-		  <em>podpisana 6 lutego 2025 r.</em>
-		  <br>Cel: Uznanie historyczne i upamiętnienie zasług żołnierzy Armii Krajowej (stanowisko Prezydenta: pamięć narodowa).
-		</li>
-
-		<li>
-		  <strong>Nowelizacje prawa wodnego i powiązane</strong>
-		  <em>podpisane w lutym 2025 r.</em>
-		  <br>Cel: Poprawa zarządzania zasobami wodnymi i zwiększenie pewności prawnej dla inwestycji wodnych.
-		</li>
-
-		<li>
-		  <strong>Ustawa o biokomponentach i biopaliwach ciekłych</strong>
-		  <em>podpisana 5 marca 2025 r.</em>
-		  <br>Cel: Wsparcie transformacji energetycznej i ograniczenie emisji — równoważenie celów klimatycznych z bezpieczeństwem energetycznym.
-		</li>
-
-		<li>
-		  <strong>Zmiana ustawy o znakach Sił Zbrojnych RP</strong>
-		  <em>podpisana 6 marca 2025 r.</em>
-		  <br>Cel: Uporządkowanie symboliki i procedur administracyjnych związanych z identyfikacją Sił Zbrojnych.
-		</li>
-
-		<li>
-		  <strong>Ustawa o funduszach promocji produktów rolno-spożywczych</strong>
-		  <em>podpisana 6 marca 2025 r.</em>
-		  <br>Cel: Wsparcie promocji polskiej żywności i wzmocnienie sektora rolnego.
-		</li>
-
-		<li>
-		  <strong>Nowelizacja ustawy o rynku mocy i powiązane regulacje energetyczne</strong>
-		  <em>podpisana 6 marca 2025 r.</em>
-		  <br>Cel: Dalsze uszczelnianie mechanizmów rynku energii w kontekście bezpieczeństwa dostaw.
-		</li>
-
-		<li>
-		  <strong>Dostosowanie prawa do współpracy z Prokuraturą Europejską</strong>
-		  <em>podpisane 6 marca 2025 r.</em>
-		  <br>Cel: Ułatwienie współdziałania w ściganiu przestępczości transgranicznej, zgodnie z prerogatywami międzynarodowymi.
-		</li>
-
-		<li>
-		  <strong>Plan strategiczny WPR (nowelizacje)</strong>
-		  <em>podpisane 13 marca 2025 r.</em>
-		  <br>Cel: Implementacja zasad Wspólnej Polityki Rolnej z naciskiem na zrównoważenie i wsparcie producentów.
-		</li>
-
-		<li>
-		  <strong>Zmiany w akcyzie i podatkach sektorowych</strong>
-		  <em>podpisane 14 marca 2025 r.</em>
-		  <br>Cel: Doprecyzowanie opodatkowania, stabilizacja wpływów budżetowych i minimalizacja luk prawnych.
-		</li>
-
-		<li>
-		  <strong>Ustawa o instytucjach rozwoju (nowela)</strong>
-		  <em>podpisana 18 marca 2025 r.</em>
-		  <br>Cel: Zwiększenie efektywności instytucji wspierających inwestycje i rozwój innowacji.
-		</li>
-
-		<li>
-		  <strong>Nowelizacja prawa lotniczego (aktualizacje)</strong>
-		  <em>podpisana 20 marca 2025 r.</em>
-		  <br>Cel: Dostosowanie przepisów do standardów bezpieczeństwa i zarządzania przestrzenią powietrzną.
-		</li>
-
-		<li>
-		  <strong>FSDN — unijna sieć danych (rolnictwo zrównoważone)</strong>
-		  <em>podpisana 20 marca 2025 r.</em>
-		  <br>Cel: Harmonizacja danych i wsparcie zrównoważonych praktyk rolniczych zgodnych z UE.
-		</li>
-
-		<li>
-		  <strong>Regulacje dotyczące lokali socjalnych i ochrony lokatorów</strong>
-		  <em>podpisane 25–26 marca 2025 r.</em>
-		  <br>Cel: Poprawa ram wsparcia socjalnego oraz zabezpieczenie praw lokatorów.
-		</li>
-
-		<li>
-		  <strong>Prawo o notariacie — nowelizacja</strong>
-		  <em>podpisana 7 kwietnia 2025 r.</em>
-		  <br>Cel: Uporządkowanie przepisów zawodowych i procedur notarialnych.
-		</li>
-
-		<li>
-		  <strong>Zmiany w planowaniu i zagospodarowaniu przestrzennym</strong>
-		  <em>podpisane 16 kwietnia 2025 r.</em>
-		  <br>Cel: Ułatwienie racjonalnego planowania przestrzennego i przyspieszenie procedur inwestycyjnych.
-		</li>
-
-		<li>
-		  <strong>Ratyfikacje i poprawki międzynarodowe (m.in. konwencje pracy na morzu)</strong>
-		  <em>podpisane 16–22 kwietnia 2025 r.</em>
-		  <br>Cel: Wypełnienie zobowiązań międzynarodowych i poprawa pozycji Polski w organizacjach międzynarodowych.
-		</li>
-
-		<li>
-		  <strong>Zmiany w ochronie zabytków i instytucjach kultury</strong>
-		  <em>podpisane 22 kwietnia 2025 r.</em>
-		  <br>Cel: Ochrona dziedzictwa i usprawnienie współpracy instytucji kultury.
-		</li>
-
-		<li>
-		  <strong>Nowelizacje systemu ratownictwa medycznego i świadczeń zdrowotnych</strong>
-		  <em>podpisane w kwietniu–maju 2025 r.</em>
-		  <br>Cel: Poprawa dostępności i jakości usług medycznych finansowanych ze środków publicznych.
-		</li>
-
-		<li>
-		  <strong>Prawo o cudzoziemcach — zmiany proceduralne</strong>
-		  <em>podpisane 8 maja 2025 r.</em>
-		  <br>Cel: Uporządkowanie procedur cudzoziemskich i zabezpieczenie mechanizmów pomocy humanitarnej.
-		</li>
-
-		<li>
-		  <strong>Usprawnienia w systemie wizowym RP</strong>
-		  <em>podpisane 8 maja 2025 r.</em>
-		  <br>Cel: Eliminacja nieprawidłowości i przyspieszenie procesu wydawania wiz.
-		</li>
-
-		<li>
-		  <strong>Zmiany w prawie drogowym</strong>
-		  <em>podpisane 14 maja 2025 r.</em>
-		  <br>Cel: Modernizacja przepisów dotyczących dróg publicznych i ułatwienia dla inwestycji komunikacyjnych.
-		</li>
-
-		<li>
-		  <strong>Specjalne rozwiązania dotyczące usuwania skutków powodzi</strong>
-		  <em>podpisane 20 maja 2025 r.</em>
-		  <br>Cel: Zapewnienie mechanizmów szybkiego reagowania i odbudowy po klęskach żywiołowych.
-		</li>
-
-		<li>
-		  <strong>Emerytury i renty (nowelizacje)</strong>
-		  <em>podpisane 30 maja 2025 r.</em>
-		  <br>Cel: Poprawa stabilności systemu emerytalnego i wyrównanie uprawnień świadczeniobiorców.
-		</li>
-
-		<li>
-		  <strong>Ochrona nabywców lokali i Deweloperski Fundusz Gwarancyjny</strong>
-		  <em>podpisane 5–6 czerwca 2025 r.</em>
-		  <br>Cel: Wzmocnienie ochrony konsumenta na rynku mieszkaniowym.
-		</li>
-
-		<li>
-		  <strong>Centralny System Informacji Rynku Energii (CSIRE)</strong>
-		  <em>podpisany 6 czerwca 2025 r.</em>
-		  <br>Cel: Zwiększenie przejrzystości danych rynkowych sektora energetycznego.
-		</li>
-
-		<li>
-		  <strong>Krajowa Sieć Kardiologiczna</strong>
-		  <em>podpisana 16 czerwca 2025 r.</em>
-		  <br>Cel: Utworzenie struktury zapewniającej lepszy dostęp do specjalistycznej opieki kardiologicznej.
-		</li>
-
-		<li>
-		  <strong>Ochrona zdrowia przed skutkami używania tytoniu (nowelizacja)</strong>
-		  <em>podpisana 17 czerwca 2025 r.</em>
-		  <br>Cel: Zwiększenie ochrony zdrowia publicznego poprzez ograniczenia i regulacje rynku tytoniowego.
-		</li>
-
-		<li>
-		  <strong>Nowelizacje Służby Więziennej</strong>
-		  <em>podpisane 17 czerwca 2025 r.</em>
-		  <br>Cel: Modernizacja zarządzania i warunków służby w systemie penitencjarnym.
-		</li>
-
-		<li>
-		  <strong>Kodeks pracy — zmiany dostosowujące</strong>
-		  <em>podpisany 18 czerwca 2025 r.</em>
-		  <br>Cel: Zwiększenie elastyczności zatrudnienia przy zachowaniu podstawowej ochrony pracowników.
-		</li>
-
-		<li>
-		  <strong>Ustawa o ustanowieniu 11 lipca Narodowym Dniem Pamięci o Ofiarach OUN–UPA</strong>
-		  <em>podpisana 2 lipca 2025 r.</em>
-		  <br>Cel: Oficjalne upamiętnienie ofiar i promocja pamięci historycznej.
-		</li>
-
-		<li>
-		  <strong>Nowelizacje prawa farmaceutycznego</strong>
-		  <em>podpisane 3–8 lipca 2025 r.</em>
-		  <br>Cel: Poprawa dostępności leków i bezpieczeństwa obrotu produktami leczniczymi.
-		</li>
-
-		<li>
-		  <strong>Zmiany Kodeksu rodzinnego i opiekuńczego</strong>
-		  <em>podpisane 3 lipca 2025 r.</em>
-		  <br>Cel: Uporządkowanie instytucji prawa rodzinnego dla większej pewności prawnej obywateli.
-		</li>
-
-		<li>
-		  <strong>Repatriacja i związane przepisy</strong>
-		  <em>podpisane 3–8 lipca 2025 r.</em>
-		  <br>Cel: Regulacje wsparcia dla repatriantów i osób powracających do kraju.
-		</li>
-
-		<li>
-		  <strong>Usprawnienia w obrocie instrumentami finansowymi</strong>
-		  <em>podpisane 8–10 lipca 2025 r.</em>
-		  <br>Cel: Wzmocnienie przejrzystości rynku kapitałowego i mechanizmów nadzoru.
-		</li>
-
-		<li>
-		  <strong>Modernizacja aplikacji mObywatel – zmiany prawne</strong>
-		  <em>podpisane 21 lipca 2025 r.</em>
-		  <br>Cel: Ulepszenie funkcjonalności cyfrowej administracji i bezpieczeństwa danych.
-		</li>
-
-		<li>
-		  <strong>Ustawa o przejrzystości i odporności sektora finansowego (green bonds, cyber-resilience)</strong>
-		  <em>podpisana 31 lipca 2025 r.</em>
-		  <br>Cel: Zapewnienie operacyjnej odporności finansów publicznych i rozwój instrumentów zrównoważonego finansowania.
-		</li>
-
-		<li>
-		  <strong>Nowe przepisy dot. restrukturyzacji zadłużenia rolniczego</strong>
-		  <em>podpisane 31 lipca 2025 r.</em>
-		  <br>Cel: Ułatwienie restrukturyzacji długów gospodarstw rolnych i wsparcie sektora rolnego.
-		</li>
-
-		<li>
-		  <strong>Zmiany w prawie zamówień publicznych</strong>
-		  <em>podpisane 21 sierpnia 2025 r.</em>
-		  <br>Cel: Uproszczenie i zwiększenie efektywności procedur zamówień publicznych.
-		</li>
-
-		<li>
-		  <strong>Uproszczenia administracyjne i deregulacja</strong>
-		  <em>podpisane 21 sierpnia 2025 r.</em>
-		  <br>Cel: Redukcja obciążeń biurokratycznych dla przedsiębiorstw i obywateli.
-		</li>
-
-		<li>
-		  <strong>Prawo bankowe — nowelizacje</strong>
-		  <em>podpisane 21–27 sierpnia 2025 r.</em>
-		  <br>Cel: Zwiększenie stabilności sektora bankowego i ochrony depozytów.
-		</li>
-
-		<li>
-		  <strong>Karta Nauczyciela — zmiany (serie nowelizacji)</strong>
-		  <em>podpisane 25 sierpnia 2025 r.</em>
-		  <br>Cel: Uporządkowanie przepisów dotyczących zatrudnienia i finansowania oświaty.
-		</li>
-
-		<li>
-		  <strong>Refundacja leków i produkty medyczne — nowelizacja</strong>
-		  <em>podpisana 25 sierpnia 2025 r.</em>
-		  <br>Cel: Poprawa dostępności leczeń oraz transparentności list refundacyjnych.
-		</li>
-
-		<li>
-		  <strong>Uchylenie Centralnej Informacji Emerytalnej</strong>
-		  <em>podpisane 27 sierpnia 2025 r.</em>
-		  <br>Cel: Uporządkowanie instytucjonalne systemu gromadzenia danych emerytalnych.
-		</li>
-
-		<li>
-		  <strong>Zmiany w VAT i podatkach pośrednich</strong>
-		  <em>podpisane 27 sierpnia 2025 r.</em>
-		  <br>Cel: Doprecyzowanie zasad rozliczeń i uszczelnienie systemu podatkowego.
-		</li>
-
-		<li>
-		  <strong>Ustawa o zapasach ropy i zasadach bezpieczeństwa paliwowego</strong>
-		  <em>podpisana 26 września 2025 r.</em>
-		  <br>Cel: Wzmocnienie gotowości państwa przy ryzyku zakłóceń na rynku paliwowym.
-		</li>
-
-		<li>
-		  <strong>Boni ciepłownicze i mechanizmy łagodzenia cen energii</strong>
-		  <em>podpisane 26 września 2025 r.</em>
-		  <br>Cel: Bezpośrednie wsparcie odbiorców energii w okresach wysokich cen.
-		</li>
-
-		<li>
-		  <strong>Weryfikacja prawa do świadczeń rodzinnych dla cudzoziemców (również pomoc dla obywateli Ukrainy)</strong>
-		  <em>podpisana 26 września 2025 r.</em>
-		  <br>Cel: Zapewnienie rzetelnej procedury przyznawania świadczeń oraz bezpieczeństwa systemu socjalnego.
-		</li>
-
-		<li>
-		  <strong>Zmiany w Kodeksie pracy (dalej dostosowania)</strong>
-		  <em>podpisane 15 października 2025 r.</em>
-		  <br>Cel: Aktualizacja regulacji zatrudnienia w kontekście nowoczesnego rynku pracy.
-		</li>
-
-		<li>
-		  <strong>Prawo procesowe karne i cywilne — nowelizacje</strong>
-		  <em>podpisane 15–29 października 2025 r.</em>
-		  <br>Cel: Usprawnienie procedur sądowych i skrócenie czasu postępowań.
-		</li>
-
-		<li>
-		  <strong>Zmiany w podatku dochodowym od osób prawnych</strong>
-		  <em>podpisane 15 października 2025 r.</em>
-		  <br>Cel: Doprecyzowanie reguł rozliczeń firm i wspieranie stabilności klimatu inwestycyjnego.
-		</li>
-
-		<li>
-		  <strong>Ratyfikacje umów międzynarodowych (m.in. IMF, IBRD)</strong>
-		  <em>podpisane 15 października 2025 r.</em>
-		  <br>Cel: Wzmocnienie pozycji Polski w instytucjach finansowych i rozwój współpracy międzynarodowej.
-		</li>
-
-		<li>
-		  <strong>Zmiany w prawie pocztowym</strong>
-		  <em>podpisane 4–17 października 2025 r.</em>
-		  <br>Cel: Dostosowanie usług pocztowych do nowych wymogów i standardów obsługi.
-		</li>
-
-		<li>
-		  <strong>Prawo o sporcie — nowelizacja</strong>
-		  <em>podpisane 29 października 2025 r.</em>
-		  <br>Cel: Usprawnienie finansowania sportu amatorskiego i warunków rozwoju struktur lokalnych.
-		</li>
-
-		<li>
-		  <strong>Kodeks cywilny i postępowania cywilnego — zmiany</strong>
-		  <em>podpisane 29 października 2025 r.</em>
-		  <br>Cel: Nowe regulacje procesowe i materialnoprawne dla obywateli i przedsiębiorstw.
-		</li>
-
-		<li>
-		  <strong>Ustawa o promowaniu morskich farm wiatrowych — nowelizacja</strong>
-		  <em>podpisana 4 listopada 2025 r.</em>
-		  <br>Cel: Wspieranie inwestycji w OZE i budowa ram prawnych dla morskiej energetyki wiatrowej.
-		</li>
-
-		<li>
-		  <strong>Centralny Port Komunikacyjny — zmiany ustawowe</strong>
-		  <em>podpisane 4 listopada 2025 r.</em>
-		  <br>Cel: Dostosowanie ram prawnych dla dużych inwestycji infrastrukturalnych.
-		</li>
-
-		<li>
-		  <strong>Nowelizacje dotyczące CEIDG i obsługi przedsiębiorcy</strong>
-		  <em>podpisane 4 listopada 2025 r.</em>
-		  <br>Cel: Ułatwienia dla przedsiębiorców i usprawnienie rejestracji działalności.
-		</li>
-
-		<li>
-		  <strong>Ustawa o świadczeniach opieki zdrowotnej finansowanych ze środków publicznych</strong>
-		  <em>podpisana 6 listopada 2025 r.</em>
-		  <br>Cel: Uporządkowanie katalogu świadczeń i mechanizmów finansowania (stanowisko Prezydenta: poprawa dostępności).
-		</li>
-
-		<li>
-		  <strong>Zmiany w zawodach pielęgniarki i położnej</strong>
-		  <em>podpisane 18 listopada 2025 r.</em>
-		  <br>Cel: Uregulowanie warunków wykonywania zawodów medycznych i poprawa systemu kształcenia oraz nadzoru.
-		</li>
-
-		<li>
-		  <strong>Ustawa o rozpatrywaniu reklamacji na rynku finansowym</strong>
-		  <em>podpisana 4 listopada 2025 r.</em>
-		  <br>Cel: Wzmocnienie ochrony konsumentów usług finansowych i usprawnienie procedur reklamacyjnych.
-		</li>
-
-		<li>
-		  <strong>Ustawa o ograniczeniu skutków używania tytoniu (dodatkowe regulacje)</strong>
-		  <em>podpisana 17–18 listopada 2025 r.</em>
-		  <br>Cel: Rozszerzenie instrumentów ochrony zdrowia publicznego (kontynuacja polityki zdrowotnej).
-		</li>
-
-		<!-- Pozycje uzupełniające do 70 (skrócone opisy, ujednolicony styl) -->
-		<li><strong>Ustawa o instytucjach obsługujących kredyty</strong><em>— podpisana 30 stycznia 2025 r.</em><br>Cel: Zwiększenie ochrony konsumenta.</li>
-		<li><strong>Ustawa o funduszach inwestycyjnych (zmiana)</strong><em>— podpisana 15 października 2025 r.</em><br>Cel: Wzmocnienie rynku kapitałowego.</li>
-		<li><strong>Nowelizacja Ordynacji podatkowej (druki 1265, 1439)</strong><em>— podpisane 15 października 2025 r.</em><br>Cel: Doprecyzowanie procedur podatkowych.</li>
-		<li><strong>Ustawa o produktach pochodzenia zwierzęcego i bezpieczeństwie żywności</strong><em>— podpisana 15 października 2025 r.</em><br>Cel: Zapewnienie bezpieczeństwa żywnościowego.</li>
-		<li><strong>Zmiana samorządu gminnego i Funduszu Sołeckiego</strong><em>— podpisana 15 października 2025 r.</em><br>Cel: Wzmocnienie roli lokalnych budżetów i samorządów.</li>
-		<li><strong>Ratyfikacja umów wielostronnych (IBRD, IMF i inne)</strong><em>— podpisane 15 października 2025 r.</em><br>Cel: Utrzymanie międzynarodowych zobowiązań finansowych.</li>
-		<li><strong>Prawo o postępowaniu przed sądami administracyjnymi (nowela)</strong><em>— podpisana 16 października 2025 r.</em><br>Cel: Usprawnienie procedur administracyjnych.</li>
-		<li><strong>Traktat o wzmocnionej współpracy z Francją (ratyfikacja)</strong><em>— podpisana 16 października 2025 r.</em><br>Cel: Wzmocnienie współpracy bilateralnej.</li>
-		<li><strong>Ustawa o promocji produktów rolno-spożywczych (dodatkowe przepisy)</strong><em>— podpisana 6 marca 2025 r.</em><br>Cel: Wsparcie eksportu i promocji żywności.</li>
-		<li><strong>Nowelizacje w zakresie podatku akcyzowego i zdrowotnego</strong><em>— podpisane 14 marca 2025 r.</em><br>Cel: Uporządkowanie wpływów budżetowych.</li>
-		<li><strong>Ustawa o ochronie praw nabywcy lokalu (DFG)</strong><em>— podpisana 5 czerwca 2025 r.</em><br>Cel: Ochrona praw konsumentów na rynku nieruchomości.</li>
-		<li><strong>Zmiany w prawie geologicznym i górniczym</strong><em>— podpisana 24 lipca 2025 r.</em><br>Cel: Dostosowanie przepisów branżowych i bezpieczeństwo inwestycji.</li>
-		<li><strong>Ustawa o komornikach sądowych (nowela)</strong><em>— podpisana 24 lipca 2025 r.</em><br>Cel: Zwiększenie transparentności działalności komorniczej.</li>
-		<li><strong>Prawo o zamówieniach publicznych (kolejne zmiany)</strong><em>— podpisane 21 sierpnia 2025 r.</em><br>Cel: Usprawnienie procedur przetargowych.</li>
-		<li><strong>Ustawa o kosztach sądowych w sprawach cywilnych (nowela)</strong><em>— podpisana 21 sierpnia 2025 r.</em><br>Cel: Ułatwienie dostępu do sądu oraz przewidywalność kosztów.</li>
-		<li><strong>Ustawa o informatyzacji podmiotów publicznych (aktualizacja)</strong><em>— podpisana 21 sierpnia 2025 r.</em><br>Cel: Postęp cyfryzacji administracji publicznej.</li>
-		<li><strong>Ustawa o zakwaterowaniu funkcjonariuszy (zmiany)</strong><em>— podpisana 8 października 2025 r.</em><br>Cel: Poprawa warunków służby i logistyki dla formacji mundurowych.</li>
-		<li><strong>Ustawa o przeciwdziałaniu praniu pieniędzy (dostosowania)</strong><em>— podpisana w sierpniu–wrześniu 2025 r.</em><br>Cel: Wzmocnienie mechanizmów anty-nadużyć finansowych.</li>
-
-		<!-- Dopełnienie listy do 70 pozycji -->
-		<li><strong>Ustawa o ochronie konsumentów finansowych (modyfikacje)</strong><em>— podpisana 2025 r.</em><br>Cel: Rozszerzenie ochrony konsumentów na rynku finansowym.</li>
-		<li><strong>Ustawa o Krajowym Rejestrze Sądowym (zmiany)</strong><em>— podpisana 26 września 2025 r.</em><br>Cel: Usprawnienie rejestracji podmiotów gospodarczych.</li>
-		<li><strong>Ustawa o języku polskim (dostosowania)</strong><em>— podpisana 26 września 2025 r.</em><br>Cel: Ochrona i promocja języka polskiego w aktach administracyjnych.</li>
-		<li><strong>Ustawa o planowaniu przestrzennym (nowela)</strong><em>— podpisana 4 listopada 2025 r.</em><br>Cel: Ułatwienie procesu planistycznego i przyspieszenie inwestycji.</li>
-		<li><strong>Ustawa o promocji elektromobilności i OZE (dodatki)</strong><em>— podpisana 2025 r.</em><br>Cel: Wsparcie transformacji energetycznej i elektromobilności.</li>
-		<li><strong>Ustawa o reorganizacji niektórych instytucji publicznych</strong><em>— podpisana 2025 r.</em><br>Cel: Poprawa efektywności działania administracji państwowej.</li>
-		<li><strong>Ustawa o wsparciu inwestycji jądrowych</strong><em>— podpisana 24 marca 2025 r.</em><br>Cel: Ramy prawne dla realizacji projektów energetyki jądrowej.</li>
-		<li><strong>Ustawa o spółkach Skarbu Państwa — zmiany korporacyjne</strong><em>— podpisana 2025 r.</em><br>Cel: Poprawa nadzoru i przejrzystości w spółkach państwowych.</li>
-
-	  </ol>
-
-	  <p style="font-size:0.95em;color:#555;max-width:900px;margin:20px auto;">
-		Źródła: oficjalne zestawienia Kancelarii Prezydenta (miesięczne listy ustaw podpisanych; pliki informacyjne „Pobierz informację” dostępne przy każdej pozycji). Lista ustaw i daty pochodzą z komunikatów KPRP publikowanych na stronie <a href="https://www.prezydent.pl/prawo/ustawy-podpisane/">prezydent.pl</a>
-	</p>
-	</section>
-
-	<!-- SEKcja WETA (z perspektywy Prezydenta) -->
-	<section id="weta" class="sekcja">
-	  <h2>RACJE KONSTYTUCYJNE – WETA (stanowisko Prezydenta)</h2>
-
-	  <div class="weto-analiza">
-		<p>Prezydenckie weta przedstawione niżej pochodzą z oficjalnych komunikatów KPRP. W każdym przypadku Prezydent argumentuje ochronę ładu konstytucyjnego, bezpieczeństwa finansowego państwa lub interesu publicznego.</p>
-
-		<ul>
-		  <li><strong>Weto do tzw. ustawy wiatrakowej</strong> — odmowa podpisu (21 sierpnia 2025 r.). Prezydent wskazał konieczność dodatkowych analiz skutków środowiskowych i infrastrukturalnych.</li>
-
-		  <li><strong>Weto do zmiany niektórych ustaw w celu deregulacji w zakresie energetyki</strong> — odmowa podpisu (25 sierpnia 2025 r.). Prezydent zakwestionował brak gwarancji społecznych i bezpieczeństwa energetycznego.</li>
-
-		  <li><strong>Weto do nowelizacji Kodeksu karnego skarbowego i Ordynacji podatkowej</strong> — odmowa podpisu (25 sierpnia 2025 r.). Prezydent wskazał na zagrożenia dla ochrony praw podatników i procedur kontrolnych.</li>
-
-		  <li><strong>Weto do nowelizacji ustawy o pomocy obywatelom Ukrainy</strong> — odmowa podpisu (25 sierpnia 2025 r.). Prezydent uznał, że proponowane rozwiązania wymagają korekt w zakresie kryteriów i przejrzystości świadczeń.</li>
-
-		  <li><strong>Weto do nowelizacji ustawy o zapasach ropy naftowej, produktów naftowych i gazu ziemnego</strong> — odmowa podpisu (27 sierpnia 2025 r.). Prezydent wskazał na niejasne mechanizmy finansowania i procedury gwarantujące bezpieczeństwo paliwowe.</li>
-
-		  <li><strong>Prezydenckie weto do nowelizacji ustawy o środkach ochrony roślin</strong> — odmowa podpisu (27 sierpnia 2025 r.). W uzasadnieniu wskazano luki prawne i ryzyko destabilizacji przepisów rolniczych.</li>
-
-		  <li><strong>Weto do tzw. „lex Kamilek” (nowelizacja związana z ochroną dzieci / regulacje medyczne)</strong> — odmowa podpisu (29 sierpnia 2025 r.). Prezydent zgłaszał zastrzeżenia co do zabezpieczeń praw dziecka i mechanizmów kontrolnych.</li>
-
-		  <li><strong>Weto do nowelizacji ustawy o mniejszościach narodowych i etnicznych oraz o języku regionalnym (etnolekt wilamowski)</strong> — odmowa podpisu (16 października 2025 r.). Prezydent wskazał na braki proceduralne i potrzebę szerszych konsultacji.</li>
-
-		  <li><strong>Weto do nowelizacji ustawy o ubezpieczeniach obowiązkowych, UFG i PBUK</strong> — odmowa podpisu (6 listopada 2025 r.). Prezydent ocenił, że proponowane zmiany osłabiają ochronę ubezpieczonych i rolę nadzoru finansowego.</li>
-
-		  <li><strong>Weto do ustawy o utworzeniu Parku Narodowego Doliny Dolnej Odry</strong> — odmowa podpisu (7 listopada 2025 r.). Prezydent wskazał na brak analiz skutków dla inwestycji i gospodarki regionu.</li>
-
-		  <li><strong>Weto do nowelizacji ustawy o zbiorowym zaopatrzeniu w wodę i zbiorowym odprowadzaniu ścieków</strong> — odmowa podpisu (7 listopada 2025 r.). Prezydent uznał, że rozwiązania nakładają nadmierne obowiązki finansowe na wspólnoty, spółdzielnie i samorządy.</li>
-
-		  <li><strong>Weto do nowelizacji Prawa o ruchu drogowym (zmiany dot. przewozów autobusowych / FRPA)</strong> — odmowa podpisu (7 listopada 2025 r.). Prezydent podniósł obawy o negatywny wpływ na transport publiczny na obszarach słabiej zurbanizowanych.</li>
-
-		  <li><strong>Weto do zmian w Krajowym Rejestrze Karnym, Kodeksie spółek handlowych oraz przepisach dot. przeciwdziałania praniu pieniędzy</strong> — odmowa podpisu (7 listopada 2025 r.). Prezydent argumentował, że proponowane rozwiązania mogą obniżyć standardy ładu korporacyjnego i bezpieczeństwa.</li>
-		</ul>
-
-		<p style="margin-top:12px;">Łączna liczba ustaw zawetowanych (zgodnie z komunikatami KPRP i zestawieniami na stronie „Ustawy zawetowane”): <b>13</b> (stan na publikacje KPRP). Źródło: strona „Ustawy zawetowane” Kancelarii Prezydenta <a href="https://www.prezydent.pl/prawo/ustawy-zawetowane">prezydent.pl</a></p>
-	  </div>
-	</section>
+    <section id="podpisane" class="sekcja">
+        <h2>PORTFOLIO LEGISLACYJNE – <span id="liczba-podpisanych-tekst">0</span> USTAW PODPISANYCH</h2>
+        <ol class="lista-ustaw lista-podpisane" id="lista-podpisanych">
+            <li class="loading">Inicjowanie pobierania danych...</li>
+        </ol>
+    </section>
+
+    <section id="weta" class="sekcja">
+        <h2>RACJE KONSTYTUCYJNE – WETA</h2>
+        <ol class="lista-ustaw lista-zawetowane" id="lista-wet">
+            <li class="loading">Inicjowanie pobierania danych...</li>
+        </ol>
+        <p style="text-align: center; margin-top: 20px; color: #555;">
+            Łączna liczba ustaw zawetowanych: <b id="liczba-wet-tekst">0</b>
+        </p>
+    </section>
 
     <footer>
-        <p>WETOMAN.PL. Niniejszy serwis posiada charakter analityczno-informacyjny, z elementami komentarza satyrycznego. Prezydent RP, zgodnie ze swoją przysięgą, ma obowiązek stać na straży Ustawy Zasadniczej.</p>
-		<p>Wszystkie zestawione informacje pochodzą bezpośrednio z Kancelarii Prezydenta <a href="https://prezydent.pl/">prezydent.pl</a></p>
+        <p>WETOMAN.PL. Dane pochodzą bezpośrednio z <a href="https://prezydent.pl/" target="_blank">prezydent.pl</a></p>
     </footer>
+
+    <script>
+        // Konfiguracja nazw plików
+        const CONFIG = {
+            plikPodpisane: 'podpisane.json',
+            plikWeta: 'weta.json',
+            dataAktualizacji: "14 listopada 2025 r."
+        };
+
+        async function pobierzDane() {
+            try {
+                // Równoległe pobieranie danych
+                const [respPodpisane, respWeta] = await Promise.all([
+                    fetch(CONFIG.plikPodpisane),
+                    fetch(CONFIG.plikWeta)
+                ]);
+
+                if (!respPodpisane.ok || !respWeta.ok) throw new Error("Nie znaleziono plików danych.");
+
+                const podpisane = await respPodpisane.json();
+                const weta = await respWeta.json();
+
+                renderujStrone(podpisane, weta);
+
+            } catch (error) {
+                console.error("Błąd ładowania danych:", error);
+                document.querySelectorAll('.loading').forEach(el => 
+                    el.innerHTML = "<span style='color:red;'>Błąd ładowania danych JSON. Upewnij się, że pliki istnieją i używasz serwera WWW.</span>"
+                );
+            }
+        }
+
+        function renderujStrone(podpisane, weta) {
+            // 1. Podstawowe statystyki
+            const nPodpisane = podpisane.length;
+            const nWeta = weta.length;
+            const efektywnosc = nPodpisane + nWeta > 0 
+                ? Math.round((nPodpisane / (nPodpisane + nWeta)) * 100) 
+                : 0;
+
+            // 2. Aktualizacja liczników i tekstu
+            document.getElementById('data-aktualizacji').textContent = CONFIG.dataAktualizacji;
+            document.getElementById('liczba-podpisanych').textContent = nPodpisane;
+            document.getElementById('liczba-podpisanych-tekst').textContent = nPodpisane;
+            document.getElementById('liczba-wet').textContent = nWeta;
+            document.getElementById('liczba-wet-tekst').textContent = nWeta;
+            document.getElementById('procent-efektywnosci').textContent = efektywnosc + '%';
+
+            // 3. Renderowanie listy podpisanych
+            const listPodp = document.getElementById('lista-podpisanych');
+            listPodp.innerHTML = podpisane.map(u => `
+                <li>
+                    <strong>${u.tytul}</strong>
+                    <em>podpisana ${u.data}</em>
+                    <br>${u.cel}
+                </li>
+            `).join('');
+
+            // 4. Renderowanie listy wet - ZMIANA FORMATOWANIA NA KARTY
+            const listWeto = document.getElementById('lista-wet');
+            listWeto.innerHTML = weta.map(w => `
+                <li>
+                    <strong>${w.tytul}</strong>
+                    <em>odmowa podpisu: ${w.data}</em>
+                    <br>${w.uzasadnienie}
+                </li>
+            `).join('');
+        }
+
+        // Start po załadowaniu DOM
+        document.addEventListener('DOMContentLoaded', pobierzDane);
+    </script>
 
 </body>
 </html>

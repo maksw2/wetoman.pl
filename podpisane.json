@@ -1,0 +1,662 @@
+[
+  {
+    "tytul": "Ustawa z dnia 5 sierpnia 2025 r. o zmianie ustawy o weteranach działań poza granicami państwa, ustawy o podatku dochodowym od osób fizycznych oraz ustawy o finansach publicznych",
+    "data": "21 sierpnia 2025 r.",
+    "cel": "Dostosowanie przepisów dotyczących weteranów oraz powiązanych regulacji podatkowych i finansowych."
+  },
+  {
+    "tytul": "Ustawa z dnia 9 lipca 2025 r. o zmianie ustawy o ochronie praw nabywcy lokalu mieszkalnego lub domu jednorodzinnego oraz Deweloperskim Funduszu Gwarancyjnym",
+    "data": "21 sierpnia 2025 r.",
+    "cel": "Wzmocnienie ochrony nabywców nieruchomości i zmiany w funkcjonowaniu funduszu gwarancyjnego."
+  },
+  {
+    "tytul": "Ustawa z dnia 9 lipca 2025 r. o zmianie ustawy – Kodeks postępowania karnego oraz niektórych innych ustaw",
+    "data": "21 sierpnia 2025 r.",
+    "cel": "Nowelizacja procedur karnych i powiązanych aktów prawnych."
+  },
+  {
+    "tytul": "Ustawa z dnia 5 sierpnia 2025 r. o zmianie ustawy – Kodeks postępowania cywilnego, ustawy – Kodeks cywilny oraz niektórych innych ustaw",
+    "data": "21 sierpnia 2025 r.",
+    "cel": "Modyfikacja przepisów postępowania cywilnego oraz kodeksu cywilnego."
+  },
+  {
+    "tytul": "Ustawa z dnia 25 lipca 2025 r. o zmianie ustawy o kosztach sądowych w sprawach cywilnych",
+    "data": "21 sierpnia 2025 r.",
+    "cel": "Aktualizacja regulacji dotyczących kosztów sądowych w procesach cywilnych."
+  },
+  {
+    "tytul": "Ustawa z dnia 25 lipca 2025 r. o zmianie ustawy – Karta nauczyciela oraz niektórych innych ustaw",
+    "data": "21 sierpnia 2025 r.",
+    "cel": "Zmiany w pragmatyce zawodowej nauczycieli."
+  },
+  {
+    "tytul": "Ustawa z dnia 9 lipca 2025 r. o zmianie ustawy – Prawo zamówień publicznych oraz ustawy o umowie koncesji na roboty budowlane lub usługi",
+    "data": "21 sierpnia 2025 r.",
+    "cel": "Korekta przepisów dotyczących zamówień publicznych i koncesji."
+  },
+  {
+    "tytul": "Ustawa z dnia 9 lipca 2025 r. o zmianie ustawy – Prawo o szkolnictwie wyższym i nauce",
+    "data": "21 sierpnia 2025 r.",
+    "cel": "Nowelizacja regulacji dotyczących szkolnictwa wyższego i nauki."
+  },
+  {
+    "tytul": "Ustawa z dnia 9 lipca 2025 r. o zmianie ustawy – Prawo konsularne",
+    "data": "21 sierpnia 2025 r.",
+    "cel": "Modyfikacja przepisów regulujących działalność konsularną."
+  },
+  {
+    "tytul": "Ustawa z dnia 25 lipca 2025 r. o zmianie ustawy o informatyzacji działalności podmiotów realizujących zadania publiczne oraz niektórych innych ustaw",
+    "data": "21 sierpnia 2025 r.",
+    "cel": "Usprawnienie procesów cyfryzacji w administracji publicznej."
+  },
+  {
+    "tytul": "Ustawa z dnia 25 lipca 2025 r. o zmianie niektórych ustaw w celu uproszczenia procedur administracyjnych oraz wsparcia przedsiębiorczości",
+    "data": "21 sierpnia 2025 r.",
+    "cel": "Deregulacja i ułatwienia proceduralne dla przedsiębiorców."
+  },
+  {
+    "tytul": "Ustawa z dnia 5 sierpnia 2025 r. o zmianie ustawy o nieodpłatnej pomocy prawnej, nieodpłatnym poradnictwie obywatelskim oraz edukacji prawnej",
+    "data": "21 sierpnia 2025 r.",
+    "cel": "Rozszerzenie i modyfikacja systemu nieodpłatnego poradnictwa prawnego."
+  },
+  {
+    "tytul": "Ustawa z dnia 9 lipca 2025 r. o zmianie ustawy o funduszach inwestycyjnych i zarządzaniu alternatywnymi funduszami inwestycyjnymi",
+    "data": "21 sierpnia 2025 r.",
+    "cel": "Dostosowanie przepisów rynku funduszy inwestycyjnych."
+  },
+  {
+    "tytul": "Ustawa z dnia 9 lipca 2025 r. o zmianie ustawy o przetwarzaniu danych dotyczących przelotu pasażera",
+    "data": "21 sierpnia 2025 r.",
+    "cel": "Zmiany w zakresie przetwarzania danych pasażerów lotniczych (PNR)."
+  },
+  {
+    "tytul": "Ustawa z dnia 5 sierpnia 2025 r. o zmianie ustawy o ubezpieczeniach obowiązkowych, Ubezpieczeniowym Funduszu Gwarancyjnym i Polskim Biurze Ubezpieczycieli Komunikacyjnych",
+    "data": "21 sierpnia 2025 r.",
+    "cel": "Nowelizacja zasad funkcjonowania ubezpieczeń obowiązkowych i UFG."
+  },
+  {
+    "tytul": "Ustawa z dnia 5 sierpnia 2025 r. o ustalaniu wysokości emerytur z Funduszu Ubezpieczeń Społecznych ustalonych w czerwcu w latach 2009–2019 oraz rent rodzinnych po ubezpieczonych, którym ustalono emerytury w czerwcu w latach 2009–2019",
+    "data": "21 sierpnia 2025 r.",
+    "cel": "Korekta zasad naliczania tzw. emerytur czerwcowych."
+  },
+  {
+    "tytul": "Ustawa z dnia 5 sierpnia 2025 r. o zmianie ustawy o emeryturach i rentach z Funduszu Ubezpieczeń Społecznych",
+    "data": "21 sierpnia 2025 r.",
+    "cel": "Zmiany w systemie emerytalno-rentowym FUS."
+  },
+  {
+    "tytul": "Ustawa z dnia 5 sierpnia 2025 r. o zmianie ustawy o ubezpieczeniach obowiązkowych, Ubezpieczeniowym Funduszu Gwarancyjnym i Polskim Biurze Ubezpieczycieli Komunikacyjnych oraz ustawy o ewidencji ludności",
+    "data": "21 sierpnia 2025 r.",
+    "cel": "Dalsze zmiany w ubezpieczeniach obowiązkowych i ewidencji ludności."
+  },
+  {
+    "tytul": "Ustawa z dnia 25 lipca 2025 r. o zmianie ustawy – Prawo zamówień publicznych oraz niektórych innych ustaw",
+    "data": "21 sierpnia 2025 r.",
+    "cel": "Kolejna nowelizacja przepisów o zamówieniach publicznych."
+  },
+  {
+    "tytul": "Ustawa z dnia 25 lipca 2025 r. o zmianie ustawy o ubezpieczeniach obowiązkowych, Ubezpieczeniowym Funduszu Gwarancyjnym i Polskim Biurze Ubezpieczycieli Komunikacyjnych",
+    "data": "21 sierpnia 2025 r.",
+    "cel": "Modyfikacja regulacji dotyczących ubezpieczeń komunikacyjnych i UFG."
+  },
+  {
+    "tytul": "Ustawa z dnia 5 sierpnia 2025 r. o zmianie ustawy – Prawo bankowe oraz niektórych innych ustaw",
+    "data": "21 sierpnia 2025 r.",
+    "cel": "Nowelizacja prawa bankowego i powiązanych aktów."
+  },
+  {
+    "tytul": "Ustawa z dnia 25 lipca 2025 r. o zmianie ustawy – Karta nauczyciela (druk 1481)",
+    "data": "25 sierpnia 2025 r.",
+    "cel": "Szczegółowe zmiany w przepisach dotyczących nauczycieli."
+  },
+  {
+    "tytul": "Ustawa z dnia 25 lipca 2025 r. o szczególnych rozwiązaniach w zakresie przechowywania nawozów naturalnych",
+    "data": "25 sierpnia 2025 r.",
+    "cel": "Regulacja kwestii magazynowania nawozów naturalnych."
+  },
+  {
+    "tytul": "Ustawa z dnia 25 lipca 2025 r. o zmianie ustawy o refundacji leków, środków spożywczych specjalnego przeznaczenia żywieniowego oraz wyrobów medycznych oraz ustawy o świadczeniach opieki zdrowotnej finansowanych ze środków publicznych",
+    "data": "25 sierpnia 2025 r.",
+    "cel": "Zmiany w systemie refundacji leków i finansowania opieki zdrowotnej."
+  },
+  {
+    "tytul": "Ustawa z dnia 25 lipca 2025 r. o zmianie ustawy – Karta nauczyciela (druk 1438)",
+    "data": "25 sierpnia 2025 r.",
+    "cel": "Kolejna nowelizacja Karty Nauczyciela."
+  },
+  {
+    "tytul": "Ustawa z dnia 25 lipca 2025 r. o zmianie ustawy – Prawo bankowe oraz niektórych innych ustaw",
+    "data": "25 sierpnia 2025 r.",
+    "cel": "Dalsze dostosowanie przepisów sektora bankowego."
+  },
+  {
+    "tytul": "Ustawa z dnia 5 sierpnia 2025 r. o zmianie ustawy – Prawo energetyczne oraz niektórych innych ustaw",
+    "data": "27 sierpnia 2025 r.",
+    "cel": "Nowelizacja Prawa energetycznego i ustaw powiązanych."
+  },
+  {
+    "tytul": "Ustawa z dnia 5 sierpnia 2025 r. o uchyleniu ustawy o Centralnej Informacji Emerytalnej",
+    "data": "27 sierpnia 2025 r.",
+    "cel": "Likwidacja przepisów o Centralnej Informacji Emerytalnej."
+  },
+  {
+    "tytul": "Ustawa z dnia 5 sierpnia 2025 r. o zmianie ustawy o podatku od towarów i usług oraz ustawy o zmianie ustawy o podatku od towarów i usług oraz niektórych innych ustaw",
+    "data": "27 sierpnia 2025 r.",
+    "cel": "Zmiany w podatku VAT."
+  },
+  {
+    "tytul": "Ustawa z dnia 5 sierpnia 2025 r. o certyfikacji wykonawców zamówień publicznych",
+    "data": "27 sierpnia 2025 r.",
+    "cel": "Wprowadzenie systemu certyfikacji dla wykonawców w zamówieniach publicznych."
+  },
+  {
+    "tytul": "Ustawa z dnia 5 sierpnia 2025 r. o zmianie ustawy o świadczeniach opieki zdrowotnej finansowanych ze środków publicznych oraz ustawy o działalności leczniczej",
+    "data": "29 sierpnia 2025 r.",
+    "cel": "Modyfikacja zasad finansowania i prowadzenia działalności leczniczej."
+  },
+  {
+    "tytul": "Ustawa z dnia 12 września 2025 roku o zmianie ustawy o zapasach ropy naftowej, produktów naftowych i gazu ziemnego oraz zasadach postępowania w sytuacjach zagrożenia bezpieczeństwa paliwowego państwa i zakłóceń na rynku naftowym oraz ustawy – Prawo energetyczne",
+    "data": "26 września 2025 r.",
+    "cel": "Zwiększenie bezpieczeństwa paliwowego i zmiany w prawie energetycznym."
+  },
+  {
+    "tytul": "Ustawa z dnia 12 września 2025 roku o zmianie niektórych ustaw w celu weryfikacji prawa do świadczeń na rzecz rodziny dla cudzoziemców oraz o warunkach pomocy obywatelom Ukrainy w związku z konfliktem zbrojnym na terytorium tego państwa",
+    "data": "26 września 2025 r.",
+    "cel": "Zaostrzenie weryfikacji świadczeń dla cudzoziemców i aktualizacja pomocy dla obywateli Ukrainy."
+  },
+  {
+    "tytul": "Ustawa z dnia 12 września 2025 roku o bonie ciepłowniczym oraz o zmianie niektórych ustaw w celu ograniczenia wysokości cen energii elektrycznej",
+    "data": "26 września 2025 r.",
+    "cel": "Wprowadzenie bonu ciepłowniczego i mechanizmów ograniczających ceny energii."
+  },
+  {
+    "tytul": "Ustawa z dnia 12 września 2025 r. o zmianie niektórych ustaw w związku z określeniem zasad zakwaterowania funkcjonariuszy Policji, Straży Granicznej, Państwowej Straży Pożarnej, Agencji Bezpieczeństwa Wewnętrznego, Agencji Wywiadu, Służby Kontrwywiadu Wojskowego, Służby Wywiadu Wojskowego, Służby Ochrony Państwa oraz poprawy niektórych warunków pełnienia służby",
+    "data": "8 października 2025 r.",
+    "cel": "Regulacja zasad zakwaterowania i warunków służby funkcjonariuszy służb mundurowych."
+  },
+  {
+    "tytul": "Ustawa z dnia 12 września 2025 r. o zmianie ustawy – Prawo farmaceutyczne",
+    "data": "15 października 2025 r.",
+    "cel": "Nowelizacja przepisów prawa farmaceutycznego."
+  },
+  {
+    "tytul": "Ustawa z dnia 12 września 2025 r. o zmianie ustawy o organizacji i funkcjonowaniu funduszy emerytalnych",
+    "data": "15 października 2025 r.",
+    "cel": "Zmiany w zasadach działania funduszy emerytalnych."
+  },
+  {
+    "tytul": "Ustawa z dnia 12 września 2025 r. o zmianie ustawy o systemie ubezpieczeń społecznych (druk 1431)",
+    "data": "15 października 2025 r.",
+    "cel": "Modyfikacja systemu ubezpieczeń społecznych."
+  },
+  {
+    "tytul": "Ustawa z dnia 12 września 2025 r. o zmianie ustawy o systemie ubezpieczeń społecznych (druk 1522)",
+    "data": "15 października 2025 r.",
+    "cel": "Kolejna nowelizacja ustawy o systemie ubezpieczeń społecznych."
+  },
+  {
+    "tytul": "Ustawa z dnia 12 września 2025 r. o zmianie ustawy – Kodeks postępowania karnego",
+    "data": "15 października 2025 r.",
+    "cel": "Zmiany w procedurze karnej."
+  },
+  {
+    "tytul": "Ustawa z dnia 12 września 2025 r. o zmianie ustawy o podatku dochodowym od osób prawnych",
+    "data": "15 października 2025 r.",
+    "cel": "Aktualizacja przepisów CIT."
+  },
+  {
+    "tytul": "Ustawa z dnia 12 września 2025 r. o zmianie ustawy o funduszach inwestycyjnych i zarządzaniu alternatywnymi funduszami inwestycyjnymi",
+    "data": "15 października 2025 r.",
+    "cel": "Dostosowanie regulacji funduszy inwestycyjnych."
+  },
+  {
+    "tytul": "Ustawa z dnia 12 września 2025 r. o zmianie ustawy – Ordynacja podatkowa (druk 1265)",
+    "data": "15 października 2025 r.",
+    "cel": "Nowelizacja Ordynacji podatkowej."
+  },
+  {
+    "tytul": "Ustawa z dnia 12 września 2025 r. o zmianie ustawy – Ordynacja podatkowa (druk 1439)",
+    "data": "15 października 2025 r.",
+    "cel": "Kolejne zmiany w Ordynacji podatkowej."
+  },
+  {
+    "tytul": "Ustawa z dnia 12 września 2025 r. o zmianie ustawy o zwrocie podatku akcyzowego zawartego w cenie oleju napędowego wykorzystywanego do produkcji rolnej",
+    "data": "15 października 2025 r.",
+    "cel": "Zmiany w zwrocie akcyzy dla rolników."
+  },
+  {
+    "tytul": "Ustawa z dnia 12 września 2025 r. o zmianie ustawy o produktach pochodzenia zwierzęcego oraz ustawy o bezpieczeństwie żywności i żywienia",
+    "data": "15 października 2025 r.",
+    "cel": "Aktualizacja przepisów sanitarnych dotyczących żywności."
+  },
+  {
+    "tytul": "Ustawa z dnia 12 września 2025 r. o zmianie ustawy o samorządzie gminnym oraz ustawy o funduszu sołeckim",
+    "data": "15 października 2025 r.",
+    "cel": "Zmiany w funkcjonowaniu samorządu gminnego i funduszy sołeckich."
+  },
+  {
+    "tytul": "Ustawa z dnia 12 września 2025 r. o ratyfikacji Umowy o Międzynarodowej Korporacji Finansowej, sporządzonej w Waszyngtonie dnia 20 lipca 1956 r.",
+    "data": "15 października 2025 r.",
+    "cel": "Ratyfikacja umowy międzynarodowej dot. IFC."
+  },
+  {
+    "tytul": "Ustawa z dnia 12 września 2025 r. o ratyfikacji Umowy o Międzynarodowym Stowarzyszeniu Rozwoju, sporządzonej w Waszyngtonie dnia 26 stycznia 1960 r.",
+    "data": "15 października 2025 r.",
+    "cel": "Ratyfikacja umowy międzynarodowej dot. IDA."
+  },
+  {
+    "tytul": "Ustawa z dnia 12 września 2025 r. o ratyfikacji Umowy o Międzynarodowym Funduszu Walutowym, sporządzonej w Bretton Woods...",
+    "data": "15 października 2025 r.",
+    "cel": "Ratyfikacja umowy i poprawek dot. MFW."
+  },
+  {
+    "tytul": "Ustawa z dnia 12 września 2025 r. o ratyfikacji Umowy o Międzynarodowym Banku Odbudowy i Rozwoju, sporządzonej w Bretton Woods...",
+    "data": "15 października 2025 r.",
+    "cel": "Ratyfikacja umowy i rezolucji dot. IBRD."
+  },
+  {
+    "tytul": "Ustawa z dnia 26 września 2025 r. o zmianie ustawy – Kodeks pracy oraz niektórych innych ustaw",
+    "data": "15 października 2025 r.",
+    "cel": "Nowelizacja prawa pracy."
+  },
+  {
+    "tytul": "Ustawa z dnia 12 września 2025 r. o zmianie ustawy – Prawo o postępowaniu przed sądami administracyjnymi",
+    "data": "16 października 2025 r.",
+    "cel": "Zmiany w procedurze sądowoadministracyjnej."
+  },
+  {
+    "tytul": "Ustawa z dnia 12 września 2025 r. o ratyfikacji Traktatu o wzmocnionej współpracy i przyjaźni między Rzecząpospolitą Polską a Republiką Francuską...",
+    "data": "16 października 2025 r.",
+    "cel": "Ratyfikacja traktatu o współpracy z Francją."
+  },
+  {
+    "tytul": "Ustawa z dnia 12 października 2025 r. o zmianie ustawy – Prawo pocztowe",
+    "data": "17 października 2025 r.",
+    "cel": "Nowelizacja Prawa pocztowego."
+  },
+  {
+    "tytul": "Ustawa z dnia 12 września 2025 r. o zmianie ustawy o sporcie",
+    "data": "29 października 2025 r.",
+    "cel": "Zmiany w przepisach o sporcie."
+  },
+  {
+    "tytul": "Ustawa z dnia 9 października 2025 r. o zmianie ustawy – Kodeks cywilny",
+    "data": "29 października 2025 r.",
+    "cel": "Nowelizacja Kodeksu cywilnego."
+  },
+  {
+    "tytul": "Ustawa z dnia 9 października 2025 r. o zmianie ustawy – Kodeks postępowania cywilnego",
+    "data": "29 października 2025 r.",
+    "cel": "Zmiany w Kodeksie postępowania cywilnego."
+  },
+  {
+    "tytul": "Ustawa z dnia 24 września 2025 roku o zmianie ustawy o Centralnym Porcie Komunikacyjnym",
+    "data": "4 listopada 2025 r.",
+    "cel": "Aktualizacja przepisów dotyczących CPK."
+  },
+  {
+    "tytul": "Ustawa z dnia 26 września 2025 roku o zmianie ustawy – Prawo pocztowe",
+    "data": "4 listopada 2025 r.",
+    "cel": "Kolejna nowelizacja Prawa pocztowego."
+  },
+  {
+    "tytul": "Ustawa z dnia 26 września 2025 roku o zmianie ustawy o planowaniu i zagospodarowaniu przestrzennym oraz niektórych innych ustaw",
+    "data": "4 listopada 2025 r.",
+    "cel": "Zmiany w planowaniu przestrzennym."
+  },
+  {
+    "tytul": "Ustawa z dnia 26 września 2025 roku o zmianie ustawy o języku polskim",
+    "data": "4 listopada 2025 r.",
+    "cel": "Nowelizacja ustawy o języku polskim."
+  },
+  {
+    "tytul": "Ustawa z dnia 26 września 2025 roku o zmianie ustawy o Krajowym Rejestrze Sądowym oraz niektórych innych ustaw",
+    "data": "4 listopada 2025 r.",
+    "cel": "Modyfikacja przepisów o KRS."
+  },
+  {
+    "tytul": "Ustawa z dnia 26 września 2025 roku o ratyfikacji Traktatu o wzajemnych stosunkach i współpracy w Azji Południowo–Wschodniej...",
+    "data": "4 listopada 2025 r.",
+    "cel": "Ratyfikacja traktatu o współpracy w Azji Płd.-Wsch."
+  },
+  {
+    "tytul": "Ustawa z dnia 26 września 2025 roku o zmianie ustawy – Prawo geodezyjne i kartograficzne",
+    "data": "4 listopada 2025 r.",
+    "cel": "Zmiany w prawie geodezyjnym."
+  },
+  {
+    "tytul": "Ustawa z dnia 9 października 2025 roku o zmianie ustawy o promowaniu wytwarzania energii elektrycznej w morskich farmach wiatrowych oraz niektórych innych ustaw",
+    "data": "4 listopada 2025 r.",
+    "cel": "Wsparcie dla morskich farm wiatrowych."
+  },
+  {
+    "tytul": "Ustawa z dnia 17 października 2025 roku o zmianie ustawy o rozpatrywaniu reklamacji przez podmioty rynku finansowego, o Rzeczniku Finansowym i o Funduszu Edukacji Finansowej",
+    "data": "4 listopada 2025 r.",
+    "cel": "Zmiany w ochronie konsumentów rynku finansowego."
+  },
+  {
+    "tytul": "Ustawa z dnia 17 października 2025 roku o zmianie ustawy o Centralnej Ewidencji i Informacji o Działalności Gospodarczej i Punkcie Informacji dla Przedsiębiorcy oraz ustawy o podatku od towarów i usług",
+    "data": "4 listopada 2025 r.",
+    "cel": "Usprawnienie CEIDG i zmiany w VAT."
+  },
+  {
+    "tytul": "Ustawa z dnia 26 września 2025 r. o zmianie ustawy o świadczeniach opieki zdrowotnej finansowanych ze środków publicznych oraz niektórych innych ustaw",
+    "data": "6 listopada 2025 r.",
+    "cel": "Korekta finansowania świadczeń zdrowotnych."
+  },
+  {
+    "tytul": "Ustawa z dnia 26 września 2025 r. o pomocy państwa skierowanej do armatorów jednostek pływających w związku z wprowadzeniem zakazu połowu dorsza na Morzu Bałtyckim",
+    "data": "6 listopada 2025 r.",
+    "cel": "Pomoc finansowa dla rybaków w związku z zakazem połowów."
+  },
+  {
+    "tytul": "Ustawa z dnia 9 października 2025 r. o zmianie ustawy o ochronie zabytków i opiece nad zabytkami oraz niektórych innych ustaw",
+    "data": "18 listopada 2025 r.",
+    "cel": "Wzmocnienie ochrony zabytków."
+  },
+  {
+    "tytul": "Ustawa z dnia 9 października 2025 r. o zmianie ustawy o zawodach pielęgniarki i położnej",
+    "data": "18 listopada 2025 r.",
+    "cel": "Aktualizacja regulacji zawodowych pielęgniarek i położnych."
+  },
+  {
+    "tytul": "Ustawa z dnia 9 października 2025 r. o zmianie ustawy o postępowaniu w sprawach dotyczących pomocy publicznej",
+    "data": "18 listopada 2025 r.",
+    "cel": "Zmiany w procedurach pomocy publicznej."
+  },
+  {
+    "tytul": "Ustawa z dnia 9 października 2025 r. o zmianie ustawy – Prawo o ustroju sądów powszechnych",
+    "data": "18 listopada 2025 r.",
+    "cel": "Reforma ustroju sądów powszechnych."
+  },
+  {
+    "tytul": "Ustawa z dnia 9 października 2025 r. o ratyfikacji Umowy między Rzecząpospolitą Polską a Republiką Peru o wzajemnej pomocy prawnej w sprawach karnych...",
+    "data": "18 listopada 2025 r.",
+    "cel": "Ratyfikacja umowy o pomocy prawnej z Peru."
+  },
+  {
+    "tytul": "Ustawa z dnia 9 października 2025 r. o ratyfikacji Umowy między Rządem Rzeczypospolitej Polskiej a Międzynarodowym Trybunałem Karnym...",
+    "data": "18 listopada 2025 r.",
+    "cel": "Ratyfikacja umowy z MTK."
+  },
+  {
+    "tytul": "Ustawa z dnia 5 listopada 2025 r. o układach zbiorowych pracy i porozumieniach zbiorowych",
+    "data": "27 listopada 2025 r.",
+    "cel": "Nowe regulacje dotyczące układów zbiorowych pracy."
+  },
+  {
+    "tytul": "Ustawa z dnia 17 października 2025 r. o zmianie ustawy o zdrowiu publicznym",
+    "data": "27 listopada 2025 r.",
+    "cel": "Zmiany w ustawie o zdrowiu publicznym."
+  },
+  {
+    "tytul": "Ustawa z dnia 17 października 2025 r. o zmianie ustawy o krajowym systemie ewidencji producentów, ewidencji gospodarstw rolnych oraz ewidencji wniosków o przyznanie płatności",
+    "data": "27 listopada 2025 r.",
+    "cel": "Aktualizacja systemów ewidencyjnych w rolnictwie."
+  },
+  {
+    "tytul": "Ustawa z dnia 17 października 2025 r. o zmianie ustawy o ochronie praw nabywcy lokalu mieszkalnego lub domu jednorodzinnego oraz Deweloperskim Funduszu Gwarancyjnym oraz niektórych innych ustaw",
+    "data": "27 listopada 2025 r.",
+    "cel": "Dalsze zmiany w ochronie nabywców mieszkań."
+  },
+  {
+    "tytul": "Ustawa z dnia 17 października 2025 r. o zmianie ustawy o rzecznikach patentowych",
+    "data": "27 listopada 2025 r.",
+    "cel": "Nowelizacja przepisów o rzecznikach patentowych."
+  },
+  {
+    "tytul": "Ustawa z dnia 17 października 2025 r. o zmianie ustawy – Prawo o ruchu drogowym oraz niektórych innych ustaw",
+    "data": "27 listopada 2025 r.",
+    "cel": "Zmiany w Prawie o ruchu drogowym."
+  },
+  {
+    "tytul": "Ustawa z dnia 17 października 2025 r. o ratyfikacji Umowy o ochronie inwestycji między Unią Europejską (...) a Socjalistyczną Republiką Wietnamu...",
+    "data": "27 listopada 2025 r.",
+    "cel": "Ratyfikacja umowy inwestycyjnej UE-Wietnam."
+  },
+  {
+    "tytul": "Ustawa z dnia 5 listopada 2025 r o zmianie ustawy o planowaniu i zagospodarowaniu przestrzennym oraz niektórych innych ustaw",
+    "data": "27 listopada 2025 r.",
+    "cel": "Korekta przepisów planistycznych."
+  },
+  {
+    "tytul": "Ustawa z dnia 5 listopada 2025 r. o zmianie ustawy o dochodach jednostek samorządu terytorialnego",
+    "data": "27 listopada 2025 r.",
+    "cel": "Zmiany w finansowaniu samorządów."
+  },
+  {
+    "tytul": "Ustawa z dnia 6 listopada 2025 r. o zmianie ustawy o podatku dochodowym od osób prawnych i ustawy o podatku od niektórych instytucji finansowych",
+    "data": "27 listopada 2025 r.",
+    "cel": "Nowelizacja CIT i podatku bankowego."
+  },
+  {
+    "tytul": "Ustawa z dnia 6 listopada 2025 r. o zmianie ustawy o podatku dochodowym od osób prawnych",
+    "data": "27 listopada 2025 r.",
+    "cel": "Kolejne zmiany w podatku CIT."
+  },
+  {
+    "tytul": "Ustawa z dnia 7 listopada 2025 r. o zmianie ustawy o rehabilitacji zawodowej i społecznej oraz zatrudnianiu osób niepełnosprawnych",
+    "data": "28 listopada 2025 r.",
+    "cel": "Wsparcie rehabilitacji i zatrudnienia osób niepełnosprawnych."
+  },
+  {
+    "tytul": "Ustawa z dnia 7 listopada 2025 r. o zmianie ustawy – Prawo o ruchu drogowym (nr druku sejmowego 1437)",
+    "data": "1 grudnia 2025 r.",
+    "cel": "Nowelizacja przepisów drogowych."
+  },
+  {
+    "tytul": "Ustawa z dnia 7 listopada 2025 r. o zmianie ustawy o systemie informacji w ochronie zdrowia oraz ustawy o ochronie ludności i obronie cywilnej",
+    "data": "1 grudnia 2025 r.",
+    "cel": "Zmiany w systemach informacji zdrowotnej i obrony cywilnej."
+  },
+  {
+    "tytul": "Ustawa z dnia 7 listopada 2025 r. o zmianie ustawy o ochronie roślin przed agrofagami oraz niektórych innych ustaw",
+    "data": "1 grudnia 2025 r.",
+    "cel": "Aktualizacja przepisów fitosanitarnych."
+  },
+  {
+    "tytul": "Ustawa z dnia 7 listopada 2025 r. o zmianie ustawy o produktach biobójczych",
+    "data": "1 grudnia 2025 r.",
+    "cel": "Nowelizacja ustawy o produktach biobójczych."
+  },
+  {
+    "tytul": "Ustawa z dnia 7 listopada 2025 r. o zmianie ustawy o ochronie zwierząt",
+    "data": "2 grudnia 2025 r.",
+    "cel": "Wzmocnienie ochrony zwierząt."
+  },
+  {
+    "tytul": "Ustawa z dnia 7 listopada 2025 r. o zmianie ustawy o wymianie informacji z organami ścigania państw członkowskich Unii Europejskiej...",
+    "data": "2 grudnia 2025 r.",
+    "cel": "Usprawnienie wymiany informacji policyjnych w UE."
+  },
+  {
+    "tytul": "Ustawa z dnia 21 listopada 2025 r. o zmianie ustawy o środkach ochrony roślin",
+    "data": "2 grudnia 2025 r.",
+    "cel": "Zmiany w regulacjach dot. środków ochrony roślin."
+  },
+  {
+    "tytul": "Ustawa z dnia 21 listopada 2025 r. o zmianie ustawy o Funduszu Medycznym oraz ustawy o świadczeniach opieki zdrowotnej finansowanych ze środków publicznych",
+    "data": "5 grudnia 2025 r.",
+    "cel": "Modyfikacja zasad działania Funduszu Medycznego."
+  },
+  {
+    "tytul": "Ustawa z dnia 21 listopada 2025 r. o zmianie ustawy o rehabilitacji zawodowej i społecznej oraz zatrudnianiu osób niepełnosprawnych oraz ustawy o rynku pracy i służbach zatrudnienia",
+    "data": "5 grudnia 2025 r.",
+    "cel": "Integracja przepisów o rehabilitacji i rynku pracy."
+  },
+  {
+    "tytul": "Ustawa z dnia 21 listopada 2025 r. o zmianie ustawy – Prawo o notariacie oraz ustawy o księgach wieczystych i hipotece",
+    "data": "12 grudnia 2025 r.",
+    "cel": "Nowelizacja prawa o notariacie i księgach wieczystych."
+  },
+  {
+    "tytul": "Ustawa z dnia 21 listopada 2025 r. o zdrowiu zwierząt",
+    "data": "12 grudnia 2025 r.",
+    "cel": "Kompleksowa regulacja kwestii zdrowia zwierząt."
+  },
+  {
+    "tytul": "Ustawa z dnia 21 listopada 2025 r. o zmianie ustawy o cudzoziemcach oraz niektórych innych ustaw",
+    "data": "12 grudnia 2025 r.",
+    "cel": "Zmiany w przepisach pobytowych dla cudzoziemców."
+  },
+  {
+    "tytul": "Ustawa z dnia 7 listopada 2025 r. o zmianie ustawy o ubezpieczeniach obowiązkowych, Ubezpieczeniowym Funduszu Gwarancyjnym i Polskim Biurze Ubezpieczycieli Komunikacyjnych (druk 1628)",
+    "data": "15 grudnia 2025 r.",
+    "cel": "Kolejna nowelizacja ustaw ubezpieczeniowych."
+  },
+  {
+    "tytul": "Ustawa z dnia 7 listopada 2025 r. o zmianie ustawy – Kodeks wykroczeń oraz ustawy – Kodeks postępowania w sprawach o wykroczenia",
+    "data": "15 grudnia 2025 r.",
+    "cel": "Zmiany w prawie wykroczeń."
+  },
+  {
+    "tytul": "Ustawa z dnia 7 listopada 2025 r. o zmianie ustawy – Kodeks karny, ustawy – Kodeks wykroczeń oraz ustawy – Kodeks postępowania w sprawach o wykroczenia",
+    "data": "15 grudnia 2025 r.",
+    "cel": "Nowelizacja prawa karnego i wykroczeń."
+  },
+  {
+    "tytul": "Ustawa z dnia 7 listopada 2025 r. o zmianie ustawy o podatku od towarów i usług (druk 1728)",
+    "data": "15 grudnia 2025 r.",
+    "cel": "Zmiany w podatku VAT."
+  },
+  {
+    "tytul": "Ustawa z dnia 7 listopada 2025 r. o nadzorze nad ogólnym bezpieczeństwem produktów",
+    "data": "15 grudnia 2025 r.",
+    "cel": "Wdrożenie nowych zasad nadzoru nad bezpieczeństwem produktów."
+  },
+  {
+    "tytul": "Ustawa z dnia 7 listopada 2025 r. o zmianie ustawy o imprezach turystycznych i powiązanych usługach turystycznych oraz niektórych innych ustaw",
+    "data": "15 grudnia 2025 r.",
+    "cel": "Regulacja rynku usług turystycznych."
+  },
+  {
+    "tytul": "Ustawa z dnia 7 listopada 2025 r. o zmianie ustawy o podatku dochodowym od osób fizycznych oraz ustawy o podatku dochodowym od osób prawnych",
+    "data": "15 grudnia 2025 r.",
+    "cel": "Zmiany w podatkach dochodowych PIT i CIT."
+  },
+  {
+    "tytul": "Ustawa z dnia 7 listopada 2025 r. o zmianie ustawy – Prawo ochrony środowiska oraz niektórych innych ustaw",
+    "data": "15 grudnia 2025 r.",
+    "cel": "Nowelizacja przepisów środowiskowych."
+  },
+  {
+    "tytul": "Ustawa z dnia 21 listopada 2025 r. o zmianie ustawy o statystyce publicznej oraz niektórych innych ustaw",
+    "data": "15 grudnia 2025 r.",
+    "cel": "Zmiany w funkcjonowaniu statystyki publicznej."
+  },
+  {
+    "tytul": "Ustawa z dnia 21 listopada 2025 r. o zmianie ustawy o zaopatrzeniu emerytalnym funkcjonariuszy Policji (...) oraz ustawy o Krajowej Administracji Skarbowej",
+    "data": "15 grudnia 2025 r.",
+    "cel": "Korekta zasad emerytalnych służb mundurowych."
+  },
+  {
+    "tytul": "Ustawa z dnia 21 listopada 2025 r. o ustanowieniu „Programu modernizacji Policji, Straży Granicznej, Państwowej Straży Pożarnej i Służby Ochrony Państwa w latach 2026–2029”",
+    "data": "15 grudnia 2025 r.",
+    "cel": "Wdrożenie programu modernizacji służb mundurowych."
+  },
+  {
+    "tytul": "Ustawa z dnia 21 listopada 2025 r. o zmianie ustawy o Centralnym Azylu dla Zwierząt",
+    "data": "15 grudnia 2025 r.",
+    "cel": "Zmiany w przepisach dot. Centralnego Azylu dla Zwierząt."
+  },
+  {
+    "tytul": "Ustawa z dnia 21 listopada 2025 r. o zmianie ustawy o podatku od wydobycia niektórych kopalin oraz niektórych innych ustaw",
+    "data": "15 grudnia 2025 r.",
+    "cel": "Modyfikacja podatku od kopalin."
+  },
+  {
+    "tytul": "Ustawa z dnia 21 listopada 2025 r. o zmianie ustawy o podatku akcyzowym",
+    "data": "15 grudnia 2025 r.",
+    "cel": "Zmiany w podatku akcyzowym."
+  },
+  {
+    "tytul": "Ustawa z dnia 4 grudnia 2025 r. o zmianie ustawy o funkcjonowaniu górnictwa węgla kamiennego oraz niektórych innych ustaw",
+    "data": "15 grudnia 2025 r.",
+    "cel": "Regulacja funkcjonowania sektora górniczego."
+  },
+  {
+    "tytul": "Ustawa z dnia 7 listopada 2025 r. o szczególnych rozwiązaniach służących realizacji ustawy budżetowej na rok 2026",
+    "data": "18 grudnia 2025 r.",
+    "cel": "Ustawa okołobudżetowa na rok 2026."
+  },
+  {
+    "tytul": "Ustawa z dnia 21 listopada 2025 r. zmieniająca ustawę o zmianie ustawy – Prawo oświatowe oraz niektórych innych ustaw...",
+    "data": "18 grudnia 2025 r.",
+    "cel": "Korekta przepisów oświatowych."
+  },
+  {
+    "tytul": "Ustawa z dnia 21 listopada 2025 r. o zmianie ustawy o systemie zarządzania emisjami gazów cieplarnianych i innych substancji oraz niektórych innych ustaw",
+    "data": "18 grudnia 2025 r.",
+    "cel": "Zmiany w systemie zarządzania emisjami."
+  },
+  {
+    "tytul": "Ustawa z dnia 21 listopada 2025 r. o zmianie ustawy – Karta Nauczyciela (druk 1945)",
+    "data": "18 grudnia 2025 r.",
+    "cel": "Kolejna nowelizacja Karty Nauczyciela."
+  },
+  {
+    "tytul": "Ustawa z dnia 21 listopada 2025 r. o zmianie ustawy o Służbie Więziennej oraz niektórych innych ustaw",
+    "data": "18 grudnia 2025 r.",
+    "cel": "Zmiany w przepisach o Służbie Więziennej."
+  },
+  {
+    "tytul": "Ustawa z dnia 21 listopada 2025 r. o zmianie ustawy – Prawo o ruchu drogowym oraz niektórych innych ustaw (druk 1985)",
+    "data": "18 grudnia 2025 r.",
+    "cel": "Nowelizacja Prawa o ruchu drogowym."
+  },
+  {
+    "tytul": "Ustawa z dnia 4 grudnia 2025 r. o zmianie ustawy – Prawo budowlane oraz niektórych innych ustaw",
+    "data": "18 grudnia 2025 r.",
+    "cel": "Zmiany w Prawie budowlanym."
+  },
+  {
+    "tytul": "Ustawa z dnia 4 grudnia 2025 r. o zmianie ustawy o doradztwie podatkowym oraz ustawy – Prawo o postępowaniu przed sądami administracyjnymi",
+    "data": "18 grudnia 2025 r.",
+    "cel": "Regulacja doradztwa podatkowego i procedur sądowych."
+  },
+  {
+    "tytul": "Ustawa z dnia 4 grudnia 2025 r. zmieniająca ustawę o zmianie ustawy – Kodeks karny oraz niektórych innych ustaw...",
+    "data": "18 grudnia 2025 r.",
+    "cel": "Korekta przepisów karnych."
+  },
+  {
+    "tytul": "Ustawa z dnia 21 listopada 2025 r. o zmianie ustawy o podatku dochodowym od osób fizycznych (druk 1835)",
+    "data": "18 grudnia 2025 r.",
+    "cel": "Zmiany w podatku PIT."
+  },
+  {
+    "tytul": "Ustawa z dnia 21 listopada 2025 r. o zmianie ustawy o podatku dochodowym od osób fizycznych (druk 1838)",
+    "data": "18 grudnia 2025 r.",
+    "cel": "Kolejna nowelizacja ustawy o PIT."
+  },
+  {
+    "tytul": "Ustawa z dnia 4 grudnia 2025 r. o zmianie ustawy o dokumentach publicznych oraz ustawy o podatku akcyzowym",
+    "data": "18 grudnia 2025 r.",
+    "cel": "Zmiany w dokumentach publicznych i akcyzie."
+  },
+  {
+    "tytul": "Ustawa z dnia 21 listopada 2025 r. o ratyfikacji Porozumienia wykonawczego między Rządem Rzeczypospolitej Polskiej a Rządem Stanów Zjednoczonych Ameryki...",
+    "data": "18 grudnia 2025 r.",
+    "cel": "Ratyfikacja porozumienia obronnego z USA."
+  },
+  {
+    "tytul": "Ustawa z dnia 21 listopada 2025 r. o zmianie ustawy o podatku od spadków i darowizn",
+    "data": "18 grudnia 2025 r.",
+    "cel": "Zmiany w opodatkowaniu spadków i darowizn."
+  },
+  {
+    "tytul": "Ustawa z dnia 4 grudnia 2025 r. o szczególnych zasadach realizacji zadań związanych z inwestycją w zakresie bezpieczeństwa i obronności realizowaną w ramach Krajowego Planu Odbudowy i Zwiększania Odporności",
+    "data": "18 grudnia 2025 r.",
+    "cel": "Przepisy dla inwestycji obronnych w ramach KPO."
+  },
+  {
+    "tytul": "Ustawa z dnia 4 grudnia 2025 r. o zmianie ustawy – Prawo o szkolnictwie wyższym i nauce",
+    "data": "22 grudnia 2025 r.",
+    "cel": "Nowelizacja ustawy o szkolnictwie wyższym."
+  },
+  {
+    "tytul": "Ustawa z dnia 4 grudnia 2025 r. o zmianie niektórych ustaw w celu poprawy bezpieczeństwa ruchu drogowego",
+    "data": "22 grudnia 2025 r.",
+    "cel": "Działania na rzecz poprawy bezpieczeństwa na drogach."
+  }
+]
